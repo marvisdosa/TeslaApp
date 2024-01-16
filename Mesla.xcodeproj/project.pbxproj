@@ -11,6 +11,13 @@
 		F9E8BC3A2B18B73300C2123A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC392B18B73300C2123A /* ContentView.swift */; };
 		F9E8BC3C2B18B73400C2123A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E8BC3B2B18B73400C2123A /* Assets.xcassets */; };
 		F9E8BC3F2B18B73400C2123A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E8BC3E2B18B73400C2123A /* Preview Assets.xcassets */; };
+		F9E8BC492B18B77100C2123A /* MeslaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC482B18B77100C2123A /* MeslaModel.swift */; };
+		F9E8BC4B2B18B7A700C2123A /* MeslaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC4A2B18B7A700C2123A /* MeslaViewModel.swift */; };
+		F9E8BC4D2B18B7CA00C2123A /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC4C2B18B7CA00C2123A /* SettingScreen.swift */; };
+		F9E8BC522B18B96900C2123A /* carDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC512B18B96900C2123A /* carDetails.swift */; };
+		F9E8BC562B18C55400C2123A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC552B18C55400C2123A /* HomeView.swift */; };
+		F9E8BC582B18C71600C2123A /* TabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC572B18C71600C2123A /* TabViewScreen.swift */; };
+		F9E8BC5A2B18CDA500C2123A /* ComponentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8BC592B18CDA500C2123A /* ComponentViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F9E8BC392B18B73300C2123A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9E8BC3B2B18B73400C2123A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E8BC3E2B18B73400C2123A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9E8BC482B18B77100C2123A /* MeslaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeslaModel.swift; sourceTree = "<group>"; };
+		F9E8BC4A2B18B7A700C2123A /* MeslaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeslaViewModel.swift; sourceTree = "<group>"; };
+		F9E8BC4C2B18B7CA00C2123A /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		F9E8BC512B18B96900C2123A /* carDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carDetails.swift; sourceTree = "<group>"; };
+		F9E8BC552B18C55400C2123A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F9E8BC572B18C71600C2123A /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
+		F9E8BC592B18CDA500C2123A /* ComponentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				F9E8BC372B18B73300C2123A /* MeslaApp.swift */,
-				F9E8BC392B18B73300C2123A /* ContentView.swift */,
+				F9E8BC4E2B18B7EE00C2123A /* Components */,
+				F9E8BC452B18B74500C2123A /* Model */,
+				F9E8BC472B18B75600C2123A /* ViewModel */,
+				F9E8BC462B18B74C00C2123A /* Views */,
 				F9E8BC3B2B18B73400C2123A /* Assets.xcassets */,
 				F9E8BC3D2B18B73400C2123A /* Preview Content */,
 			);
@@ -65,6 +82,42 @@
 				F9E8BC3E2B18B73400C2123A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9E8BC452B18B74500C2123A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8BC482B18B77100C2123A /* MeslaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E8BC462B18B74C00C2123A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8BC392B18B73300C2123A /* ContentView.swift */,
+				F9E8BC552B18C55400C2123A /* HomeView.swift */,
+				F9E8BC572B18C71600C2123A /* TabViewScreen.swift */,
+				F9E8BC512B18B96900C2123A /* carDetails.swift */,
+				F9E8BC4C2B18B7CA00C2123A /* SettingScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9E8BC472B18B75600C2123A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8BC4A2B18B7A700C2123A /* MeslaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F9E8BC4E2B18B7EE00C2123A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F9E8BC592B18CDA500C2123A /* ComponentViews.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E8BC562B18C55400C2123A /* HomeView.swift in Sources */,
+				F9E8BC4D2B18B7CA00C2123A /* SettingScreen.swift in Sources */,
+				F9E8BC582B18C71600C2123A /* TabViewScreen.swift in Sources */,
+				F9E8BC522B18B96900C2123A /* carDetails.swift in Sources */,
+				F9E8BC5A2B18CDA500C2123A /* ComponentViews.swift in Sources */,
 				F9E8BC3A2B18B73300C2123A /* ContentView.swift in Sources */,
+				F9E8BC4B2B18B7A700C2123A /* MeslaViewModel.swift in Sources */,
 				F9E8BC382B18B73300C2123A /* MeslaApp.swift in Sources */,
+				F9E8BC492B18B77100C2123A /* MeslaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

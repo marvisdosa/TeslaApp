@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MeslaApp: App {
+    @StateObject var teslaModels = TeslaViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView().preferredColorScheme(.dark)
+            }
+            .environmentObject(teslaModels)
         }
     }
 }
